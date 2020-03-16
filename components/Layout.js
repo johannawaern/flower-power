@@ -24,6 +24,20 @@ export default function Layout(props) {
           body {
             margin: 0;
           }
+
+          main {
+            padding: 20px;
+          }
+
+          h1,
+          h2 {
+            font-family: 'Shadows Into Light Two', cursive;
+          }
+
+          p,
+          em {
+            font-family: 'Open Sans Condensed', sans-serif;
+          }
         `}
       </style>
       <Header />

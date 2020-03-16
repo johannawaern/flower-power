@@ -35,23 +35,8 @@ const Index = (props) => (
         ))}
       </ul>
       <style jsx>{`
-        main {
-          padding: 20px;
-        }
-
-        h1 {
-          font-family: 'Shadows Into Light Two', cursive;
-        }
-
         h2 {
-          font-family: 'Shadows Into Light Two', cursive;
-          margin-top: 3em;
           text-align: center;
-        }
-
-        p {
-          font-family: 'Open Sans Condensed', sans-serif;
-          font-size: 1.2em;
         }
 
         .flowerWrapper {
